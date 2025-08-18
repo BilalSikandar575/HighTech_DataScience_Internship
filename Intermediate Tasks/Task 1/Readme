@@ -1,1 +1,37 @@
+🧑‍💻 Modular Machine Learning Pipeline
+📊 Dataset Used
+•	Dataset: Breast Cancer Wisconsin (Diagnostic) Dataset
+•	Source: sklearn.datasets.load_breast_cancer()
+•	Description: The dataset contains 569 samples with 30 features, representing tumor characteristics. Target variable indicates whether the tumor is malignant (1) or benign (0).
+________________________________________
+⚙️ Steps Included in the Pipeline
+1.	Data Loading Module
+o	Loads dataset from sklearn.
+o	Handles missing values (if any).
+2.	Preprocessing Module
+o	Encodes categorical features (if present).
+o	Scales features using StandardScaler.
+o	Splits dataset into training and testing sets.
+3.	Model Training Module
+o	Supports supervised ML models (Logistic Regression, Decision Tree, Random Forest).
+o	Ensures reproducibility using random_state.
+4.	Evaluation Module
+o	Computes Accuracy, Precision, Recall, and F1-score.
+o	Displays Confusion Matrix.
+o	Prints full Classification Report.
+________________________________________
+
+▶️ How to Run the Code
+1.	Clone this repository:
+2.	git clone https://github.com/your-username/ml-pipeline.git
+3.	cd ml-pipeline
+4.	Install dependencies:
+5.	pip install -r requirements.txt
+6.	Run the pipeline script:
+7.	python ml_pipeline.py
+8.	Results will include:
+o	Evaluation metrics (Accuracy, Precision, Recall, F1-score).
+o	Confusion Matrix plot.
+o	Classification report.
+
 
